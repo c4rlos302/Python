@@ -9,6 +9,7 @@ SALIR = 3
 
 CAMBIAR_NOMBRE_USUARIO = 1
 CAMBIAR_CONTRASEÑA = 2
+CERRAR_SESION_USUARIO = 3
 
 VER_USUARIOS = 1
 CAMBIAR_ROL = 2
@@ -344,7 +345,6 @@ def main():
         opc = menuPrincipal()
         if opc == REGISTRARSE:
             registrarUsuario(usuarios)
-            guardarUsuarios(usuarios)
 
         elif opc == INICIAR_SESION:
             usuario = iniciarSesion(usuarios)
@@ -358,11 +358,11 @@ def main():
                             cambiarUsername(usuarioActual, usuarios)
                         elif opc2 == CAMBIAR_CONTRASEÑA:
                             cambiarPassword(usuarioActual, usuarios)
-                        elif opc2 == SALIR:
+                        elif opc2 == CERRAR_SESION_USUARIO:
                             usuarioActual = None
                             break
                         
-                    if usuarioActual["role"] == "admin":
+                    elif usuarioActual["role"] == "admin":
                         opc2 = menuAdmin()
                         if opc2 == VER_USUARIOS:
                             verUsuarios(usuarios)
