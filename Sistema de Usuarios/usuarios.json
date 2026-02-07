@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "password": "admin",
+        "role": "admin",
+        "estado": "activo"
+    },
+    {
+        "id": 2,
+        "username": "User2",
+        "password": "user2",
+        "role": "user",
+        "estado": "activo"
+    },
+    {
+        "id": 3,
+        "username": "al",
+        "password": "re",
+        "role": "user",
+        "estado": "activo"
+    },
+    {
+        "id": 4,
+        "username": "we",
+        "password": "ew",
+        "role": "user",
+        "estado": "activo"
+    },
+    {
+        "id": 5,
+        "username": "user4",
+        "password": "user4",
+        "role": "user",
+        "estado": "activo"
+    }
+]
