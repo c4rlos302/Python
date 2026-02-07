@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mouse Gamer",
+        "precio": 350.50,
+        "stock": 10,
+        "categoria": "Electronica",
+        "activo": true
+    },
+    {
+        "id": 2,
+        "nombre": "Teclado Mecanico",
+        "precio": 1200.00,
+        "stock": 0,
+        "categoria": "Electronica",
+        "activo": true
+    },
+    {
+        "id": 3,
+        "nombre": "Monitor 24 pulgadas",
+        "precio": 4200.75,
+        "stock": 5,
+        "categoria": "Electronica",
+        "activo": true
+    },
+    {
+        "id": 4,
+        "nombre": "Silla Ergonomica",
+        "precio": 2500.00,
+        "stock": 2,
+        "categoria": "Muebles",
+        "activo": true
+    },
+    {
+        "id": 5,
+        "nombre": "Lampara LED",
+        "precio": 450.00,
+        "stock": 0,
+        "categoria": "Iluminacion",
+        "activo": true
+    },
+    {
+        "id": 6,
+        "nombre": "CCamara Web",
+        "precio": 900.00,
+        "stock": 7,
+        "categoria": "Electronica",
+        "activo": true
+    },
+    {
+        "id": 7,
+        "nombre": "Auriculares Inalambricos",
+        "precio": 750.00,
+        "stock": 0,
+        "categoria": "Electronica",
+        "activo": false
+    },
+    {
+        "id": 8,
+        "nombre": "Mesa de Oficina",
+        "precio": 3200.00,
+        "stock": 3,
+        "categoria": "Muebles",
+        "activo": true
+    },
+    {
+        "id": 9,
+        "nombre": "Extension Electrica",
+        "precio": 150.00,
+        "stock": 15,
+        "categoria": "Iluminacion",
+        "activo": true
+    },
+    {
+        "id": 10,
+        "nombre": "Disco Duro 1TB",
+        "precio": 2200.00,
+        "stock": 0,
+        "categoria": "Electronica",
+        "activo": true
+    }
+]
